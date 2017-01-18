@@ -22,6 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent=getIntent();
         final String data=intent.getStringExtra("extra_data");
         Log.d("helloworld", data);
+        Log.d("helloworld","Branch1");
         Toast.makeText(this, data, Toast.LENGTH_LONG).show();
         Button button2= (Button) findViewById(R.id.button_2);
         button2.setOnClickListener(new View.OnClickListener() {
